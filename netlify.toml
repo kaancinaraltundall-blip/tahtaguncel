@@ -1,0 +1,15 @@
+# Netlify Deployment Configuration
+# --------------------------------
+# Netlify sadece React frontend arayüzünü barındırır.
+# Canlı Yjs WebSocket senkronizasyonu için Netlify panelinde:
+# Site configuration > Environment variables > VITE_WS_URL ekleyin
+# Örnek: VITE_WS_URL = "wss://eduboard-yjs-edge.your-worker.workers.dev"
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

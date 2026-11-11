@@ -1,0 +1,6 @@
+{
+  "name": "EduBoard Live - Gerçek Zamanlı Dijital Beyaz Tahta",
+  "description": "Öğretmen, öğrenci ve akıllı tahta için ağ bağımsız, sıfır gecikmeli tldraw + Yjs WebSocket tabanlı dijital beyaz tahta sistemi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
